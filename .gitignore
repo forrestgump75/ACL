@@ -1,0 +1,25 @@
+# Python cache and notebook cruft
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Generated experiment artifacts
+*.npy
+*.pkl
+*.zip
+*.png
+*.json
+*.txt
+*.csv
+
+# Keep source notebooks and code tracked
+!*.ipynb
+!*.py
